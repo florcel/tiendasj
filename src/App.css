@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.greeting {
+  margin: 100px;
+}
+
+.elementosnavbar {
+  margin: 10px 10px 10px 10px;
+}
+
+.btn-info {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  background-color: #ec6f8f;
+  border-color: #ec6f8f;
+}
+
+.detalle {
+  display: flex;
+  margin: 10;
+  margin-bottom: 15px;
+}
+
+.count {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.carrito-img {
+  padding: 2px;
+  float: right;
+}
+
+.logo-img {
+  margin-right: 4rem;
+}
+
+.ItemList {
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+
+.Listado {
+  margin-left: 120px;
+  margin-right: auto;
+  display: block;
+}
+
+.navbar-nav {
+  float: inherit;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.imgDetail {
+  display:block;
+  margin:auto;
+  width: 25%;
+}
+
+.selected {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.buyButton {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 40px;
+}
+
+.footer{
+  margin-top: 0rem;
+  padding: 0 0 0 0;
+  background-color: #222222;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.copy {
+  color: white;
+}
+
+.home {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.cart {
+  display: contents;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.container b {
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.container {
+  margin-bottom: 3px;
+  border: black 5px solid;
+}
+
+.img-cart {
+  margin-top: 0px;
+  margin-bottom: 3px;
+  margin-left: 730px;
+}
+
+.num-cart {
+  color: #a49696
+}
+
+.total {
+  margin-right: 10px;
+}
+
+.continue {
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  margin-right: 6px;
+}
